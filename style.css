@@ -3,4 +3,115 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(51, 51, 51);
+    height: 70px;
+}
+
+.logo {
+    width: 200px;
+}
+
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    color: white;
+    list-style-type: none;
+}
+
+.menu li {
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    color: red;
+}
+
+.container {
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+    padding: 0 50px;
+}
+
+
+
+.hero-container {
+    background-image: url('./images/background.png');
+    background-color: #000000;
+}
+
+.content {
+    width: 50%;
+}
+
+.image {
+    width: 400px
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: red;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.about,
+.about-content {
+    color: black
+}
+
+.about-container {
+    height: 70vh;
+}
+
+.about>h1 {
+    text-align: center;
+}
+
+.services {
+    background-image: url('./images/background.png');
+    background-color: #000000;
+}
+
+.services>h1 {
+    text-align: center;
+    color: white
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
 }
